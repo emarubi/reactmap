@@ -17,7 +17,7 @@ function Map({ regionCoord, regionName }) {
         const onClick = () => {
             map.locate().on("locationfound", function (e) {
                 setPosition(e.latlng);
-                map.flyTo(e.latlng, 14);
+                map.flyTo(e.latlng, 13);
             });
         }
             // map.flyTo(regionCoord, zoom);
@@ -32,7 +32,7 @@ function Map({ regionCoord, regionName }) {
           const searchControl = new GeoSearchControl({
             style: 'bar',
             position: 'topleft',
-            zoomLevel: 14,
+            zoomLevel: 12,
             provider,
             marker: {
               icon
