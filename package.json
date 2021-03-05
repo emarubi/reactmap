@@ -7,9 +7,12 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "leaflet": "^1.7.1",
+    "leaflet-geosearch": "^3.2.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-leaflet": "^3.1.0",
+    "react-leaflet-search": "^2.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/leaflet-geosearch": "^2.7.1"
   }
 }
